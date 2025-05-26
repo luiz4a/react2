@@ -1,0 +1,132 @@
+/*C:\Users\aluno.den\projetoluiza\src\pages\Bemvindo\style.css*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #036d2688, #faf60296, rgba(2, 6, 250, 0.548)), 
+                url('../../assets/images/banner.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.pagina-bem-vindo {
+    text-align: center;
+    padding: 0;
+    min-height: 100vh; 
+    background-color: linear-gradient(
+        to bottom right,
+        rgba(0, 128, 0, 0.548),
+        rgba(248, 224, 5, 0.582),
+        rgba(0, 47, 255, 0.541),
+        rgba(0, 0, 0, 0.295)
+        ) 
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: linear-gradient(
+        to bottom right,
+        rgba(0, 128, 0, 0.548),
+        rgba(248, 224, 5, 0.582),
+        rgba(0, 47, 255, 0.541)
+        )    
+    }
+
+.logo {
+    height: 50px;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #00e0ff;
+}
+
+.conteudo {
+    padding: 50px 20px;
+    border-radius: 25px;
+    margin: 20px;
+    border: 4px solid; /* define a largura da borda */
+    border-image: linear-gradient(45deg, #01420c93, #e4dcdc, #e6ff01a1) 1;    border-radius: 10px;
+    background-color: linear-gradient(
+        to bottom right,
+        rgba(0, 128, 0, 0.568),
+        rgba(255, 251, 5, 0.521),
+        rgba(30, 6, 245, 0.507)
+        )    
+}
+
+
+.imagem-banner {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.titulo {
+    font-size: 36px;
+    font-weight: lighter;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #02000c;
+    text-align: center;
+    padding: 0;
+    min-height: 5vh; 
+    border-radius: 5%;
+    background-color: linear-gradient(
+        to bottom right,
+        rgba(2, 24, 2, 0.7),
+        rgba(255, 255, 255, 0.7),
+        rgba(230, 207, 7, 0.7)
+        )    
+}
+
+.botoes-download {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.botoes-acesso{
+    margin: 20px auto;
+}
+
+.botao {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #222;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.botao:hover {
+    background-color: #00e0ff;
+    border-color: #00e0ff;
+    color: #000;
+}
+.luiza{
+    background-color: rgba(255, 255, 255, 0.95); /* fundo branco levemente opaco */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
